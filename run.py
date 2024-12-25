@@ -3,6 +3,7 @@ from flask import Flask, request, render_template, redirect, url_for, session,fl
 from Expense.app import expense_bp
 from user_reg.main import user_reg_bp
 
+
 def create_app():
     app = Flask(__name__)
 
